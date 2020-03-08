@@ -310,6 +310,7 @@ function xmlhttpRequest(metodo, endpoint, acao, dados, i) {
 	}
 	xmlhttp.open(metodo, endpoint, true);
 	xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xmlhttp.setRequestHeader("Accept-Language", "ja");
 	xmlhttp.send(dados);
 	var xmlhttpTimeout = setTimeout(function ajaxTimeout() {
 		xmlhttp.abort();
