@@ -106,11 +106,11 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 </article>
 <article id="options">
 	<div id="accordion" dojoType="dijit.layout.AccordionContainer" doLayout="false">
-		<div dojoType="dijit.layout.ContentPane" title="Importar dados de um arquivo CSV">
+		<div dojoType="dijit.layout.ContentPane" title="Import data from CSV">
 			<div dojoType="dijit.form.Form" enctype="multipart/form-data" accept-charset="utf-8" id="f_csv" jsId="f_csv" action="load_csv.php" method="post">
 				<section class="toolcontainer">
 					<div class="row">
-						<div class="filelabel"><label for="uploader_csv"><a id="dlg_csv" href="javascript:showDialogCsv();">Arquivo</a>:</label></div>
+						<div class="filelabel"><label for="uploader_csv"><a id="dlg_csv" href="javascript:showDialogCsv();">Arcive</a>:</label></div>
 						<div class="uploadbutton">
 						  <input type="hidden" name="MAX_FILE_SIZE" value="500000" dojoType="dijit.form.TextBox">
 						  <input name="csv" multiple="false" type="file" data-dojo-type="dojox.form.Uploader" label="Escolher arquivo" id="uploader_csv">
@@ -128,7 +128,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 				</button>
 			</div>
 		</div>
-		<div dojoType="dijit.layout.ContentPane" title="Importar lista de um arquivo de texto simples">
+		<div dojoType="dijit.layout.ContentPane" title="Import list from a plain text file">
 			<div dojoType="dijit.form.Form" enctype="multipart/form-data" accept-charset="utf-8" id="f_txt" jsId="f_txt" action="load.php" method="post">
 				<section class="toolcontainer">
 					<div class="row">
@@ -225,7 +225,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 				</button>
 			</div>
 		</div>
-		<div dojoType="dijit.layout.ContentPane" title="Importar lista de uma p&aacute;gina web">
+		<div dojoType="dijit.layout.ContentPane" title="Import list from a web page">
 			<div dojoType="dijit.form.Form" enctype="multipart/form-data" accodigopostalt-charset="utf-8" id="f_lks" jsId="f_lks" action="load.php" method="post">
 				<section class="toolcontainer">
 					<div class="row">
@@ -318,7 +318,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 				</button>
 			</div>
 		</div>
-		<div dojoType="dijit.layout.ContentPane" title="Informar IDs ou URLs das venues">
+		<div dojoType="dijit.layout.ContentPane" title="Specify venues IDs or URLs">
 			<div dojoType="dijit.form.Form" enctype="multipart/form-data" accodigopostalt-charset="utf-8" id="f_ids" jsId="f_ids" action="load.php" method="post">
 				<section class="toolcontainer">
 					<div class="row">
@@ -411,7 +411,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 				</button>
 			</div>
 		</div>
-		<div dojoType="dijit.layout.ContentPane" title="Pesquisar venues" selected="true">
+		<div dojoType="dijit.layout.ContentPane" title="Search venues" selected="true">
 			<div dojoType="dijit.form.Form" enctype="multipart/form-data" accodigopostalt-charset="utf-8" id="f_src" jsId="f_src" action="search.php" method="post">
 				<input type="hidden" id="oauth_token_scr" name="oauth_token" value="<?= $oauth_token ?>"/>
 				<section class="toolcontainer">
