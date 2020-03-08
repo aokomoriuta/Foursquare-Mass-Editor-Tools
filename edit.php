@@ -31,7 +31,7 @@ if ((isset($_SESSION["oauth_token"])) && ($_SESSION["file"] != null)) {
 include 'includes/app_credentials.php';
 ?>
 <!doctype html>
-<html lang="pt-BR">
+<html lang="ja">
 <head>
 <title>Elio Tools</title>
 <meta charset="utf-8">

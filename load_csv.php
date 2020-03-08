@@ -22,7 +22,7 @@ if (!isset($_SESSION["oauth_token"])) {
 }
 ?>
 <!doctype html>
-<html lang="pt-BR">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="cache-control" content="no-cache">

@@ -35,7 +35,7 @@
 
 ?>
 <!doctype html>
-<html lang="pt-BR">
+<html lang="ja">
 <head>
 <title>Elio Tools</title>
 <meta charset="utf-8">

@@ -33,7 +33,7 @@ if (!isset($_SESSION["oauth_token"])) {
 }
 ?>
 <!doctype html>
-<html lang="pt-BR">
+<html lang="ja">
 <head>
 <title>Carregando...</title>
 <meta charset="utf-8">
