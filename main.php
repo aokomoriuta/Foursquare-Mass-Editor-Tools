@@ -124,7 +124,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 				</button>
 				-->
 				<button dojoType="dijit.form.Button" type="submit" class="continue">
-					Continuar
+					Continue
 				</button>
 			</div>
 		</div>
@@ -144,44 +144,44 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 						<div class="checkboxes">
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="nome1" name="campos1[]" dojoType="dijit.form.CheckBox" value="nome">
-								<label for="nome1">Nome</label>
+								<label for="nome1">Name</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="endereco1" name="campos1[]" dojoType="dijit.form.CheckBox" value="endereco">
-								<label for="endereco1">Endere&ccedil;o</label>
+								<label for="endereco1">Address</label>
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="ruatransversal1" name="campos1[]" dojoType="dijit.form.CheckBox" value="ruatransversal">
-								<label for="ruatransversal1">Rua transversal</label>
+								<label for="ruatransversal1">Cross street</label>
 							</div>
 							<div class="checkbox" style="width: 5.5em;">
 								<input id="bairro1" name="campos1[]" dojoType="dijit.form.CheckBox" value="bairro">
-								<label for="bairro1">Bairro</label>
+								<label for="bairro1">Neighborhood</label>
 							</div>
 							<div class="checkbox" style="width: 7em;">
 								<input id="cidade1" name="campos1[]" dojoType="dijit.form.CheckBox" value="cidade">
-								<label for="cidade1">Cidade</label>
+								<label for="cidade1">City</label>
 							</div>
 							<div class="checkbox" style="width: 7em;">
 								<input id="estado1" name="campos1[]" dojoType="dijit.form.CheckBox" value="estado">
-								<label for="estado1">Estado</label>
+								<label for="estado1">State</label>
 							</div>
 							<div class="checkbox" style="width: 7.5em;">
 								<input id="codigopostal1" name="campos1[]" dojoType="dijit.form.CheckBox" value="codigopostal">
-								<label for="codigopostal1">C&oacute;digo postal</label>
+								<label for="codigopostal1">Postal Code</label>
 							</div>
 							<br>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="dentro1" name="campos1[]" dojoType="dijit.form.CheckBox" value="dentro">
-								<label for="dentro1">Dentro</label>
+								<label for="dentro1">Inside</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="telefone1" name="campos1[]" dojoType="dijit.form.CheckBox" value="telefone">
-								<label for="telefone1">Telefone</label>
+								<label for="telefone1">Phone</label>
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="sitedaweb1" name="campos1[]" dojoType="dijit.form.CheckBox" value="sitedaweb">
-								<label for="sitedaweb1">Site da web</label>
+								<label for="sitedaweb1">Website</label>
 							</div>
 							<div class="checkbox" style="width: 5.5em;">
 								<input id="twitter1" name="campos1[]" dojoType="dijit.form.CheckBox" value="twitter">
@@ -202,7 +202,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 							<br>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="descricao1" name="campos1[]" dojoType="dijit.form.CheckBox" value="descricao">
-								<label for="descricao1">Descri&ccedil;&atilde;o</label>
+								<label for="descricao1">Description</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="menu1" name="campos1[]" dojoType="dijit.form.CheckBox" value="menu">
@@ -210,7 +210,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="horas1" name="campos1[]" dojoType="dijit.form.CheckBox" value="horas" disabled>
-								<label for="horas1">Horas</label>
+								<label for="horas1">Hours</label>
 							</div>
 						</div>
 					</div>
@@ -221,7 +221,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 				</button>
 				-->
 				<button dojoType="dijit.form.Button" type="submit" class="continue">
-					Continuar
+					Continue
 				</button>
 			</div>
 		</div>
@@ -237,44 +237,44 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 						<div class="checkboxes">
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="nome2" name="campos2[]" dojoType="dijit.form.CheckBox" value="nome">
-								<label for="nome2">Nome</label>
+								<label for="nome2">Name</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="endereco2" name="campos2[]" dojoType="dijit.form.CheckBox" value="endereco">
-								<label for="endereco2">Endere&ccedil;o</label>
+								<label for="endereco2">Address</label>
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="ruatransversal2" name="campos2[]" dojoType="dijit.form.CheckBox" value="ruatransversal">
-								<label for="ruatransversal2">Rua transversal</label>
+								<label for="ruatransversal2">Cross street</label>
 							</div>
 							<div class="checkbox" style="width: 5.5em;">
 								<input id="bairro2" name="campos2[]" dojoType="dijit.form.CheckBox" value="bairro">
-								<label for="bairro2">Bairro</label>
+								<label for="bairro2">Neighborhood</label>
 							</div>
 							<div class="checkbox" style="width: 7em;">
 								<input id="cidade2" name="campos2[]" dojoType="dijit.form.CheckBox" value="cidade">
-								<label for="cidade2">Cidade</label>
+								<label for="cidade2">City</label>
 							</div>
 							<div class="checkbox" style="width: 7em;">
 								<input id="estado2" name="campos2[]" dojoType="dijit.form.CheckBox" value="estado">
-								<label for="estado2">Estado</label>
+								<label for="estado2">State</label>
 							</div>
 							<div class="checkbox" style="width: 7.5em;">
 								<input id="codigopostal2" name="campos2[]" dojoType="dijit.form.CheckBox" value="codigopostal">
-								<label for="codigopostal2">C&oacute;digo postal</label>
+								<label for="codigopostal2">Postal Code</label>
 							</div>
 							<br>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="dentro2" name="campos2[]" dojoType="dijit.form.CheckBox" value="dentro">
-								<label for="dentro2">Dentro</label>
+								<label for="dentro2">Inside</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="telefone2" name="campos2[]" dojoType="dijit.form.CheckBox" value="telefone">
-								<label for="telefone2">Telefone</label>
+								<label for="telefone2">Phone</label>
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="sitedaweb2" name="campos2[]" dojoType="dijit.form.CheckBox" value="sitedaweb">
-								<label for="sitedaweb2">Site da web</label>
+								<label for="sitedaweb2">Website</label>
 							</div>
 							<div class="checkbox" style="width: 5.5em;">
 								<input id="twitter2" name="campos2[]" dojoType="dijit.form.CheckBox" value="twitter">
@@ -295,7 +295,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 							<br>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="descricao2" name="campos2[]" dojoType="dijit.form.CheckBox" value="descricao">
-								<label for="descricao2">Descri&ccedil;&atilde;o</label>
+								<label for="descricao2">Description</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="menu2" name="campos2[]" dojoType="dijit.form.CheckBox" value="menu">
@@ -303,7 +303,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="horas2" name="campos2[]" dojoType="dijit.form.CheckBox" value="horas" disabled>
-								<label for="horas2">Horas</label>
+								<label for="horas2">Hours</label>
 							</div>
 						</div>
 					</div>
@@ -314,7 +314,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 				</button>
 				-->
 				<button dojoType="dijit.form.Button" type="submit" class="continue">
-					Continuar
+					Continue
 				</button>
 			</div>
 		</div>
@@ -322,7 +322,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 			<div dojoType="dijit.form.Form" enctype="multipart/form-data" accodigopostalt-charset="utf-8" id="f_ids" jsId="f_ids" action="load.php" method="post">
 				<section class="toolcontainer">
 					<div class="row">
-						<div class="urlstextarealabel"><label for="textarea_ids"><a id="dlg_ids" href="javascript:showDialogIds();">IDs ou URLs</a>:</label></div>
+						<div class="urlstextarealabel"><label for="textarea_ids"><a id="dlg_ids" href="javascript:showDialogIds();">IDs or URLs</a>:</label></div>
 						<div class="urlstextarea"><textarea id="textarea_ids" name="textarea" dojoType="dijit.form.SimpleTextarea" maxLength="4000" trim="true" style="font-family: Arial, Helvetica, Verdana, sans-serif; font-size: 13px; resize: none; width: 647px; height: 59px;"></textarea></div>
 					</div>
 					<div class="row">
@@ -330,44 +330,44 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 						<div class="checkboxes">
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="nome3" name="campos3[]" dojoType="dijit.form.CheckBox" value="nome">
-								<label for="nome3">Nome</label>
+								<label for="nome3">Name</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="endereco3" name="campos3[]" dojoType="dijit.form.CheckBox" value="endereco">
-								<label for="endereco3">Endere&ccedil;o</label>
+								<label for="endereco3">Address</label>
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="ruatransversal3" name="campos3[]" dojoType="dijit.form.CheckBox" value="ruatransversal">
-								<label for="ruatransversal3">Rua transversal</label>
+								<label for="ruatransversal3">Cross street</label>
 							</div>
 							<div class="checkbox" style="width: 5.5em;">
 								<input id="bairro3" name="campos3[]" dojoType="dijit.form.CheckBox" value="bairro">
-								<label for="bairro3">Bairro</label>
+								<label for="bairro3">Neighborhood</label>
 							</div>
 							<div class="checkbox" style="width: 7em;">
 								<input id="cidade3" name="campos3[]" dojoType="dijit.form.CheckBox" value="cidade">
-								<label for="cidade3">Cidade</label>
+								<label for="cidade3">City</label>
 							</div>
 							<div class="checkbox" style="width: 7em;">
 								<input id="estado3" name="campos3[]" dojoType="dijit.form.CheckBox" value="estado">
-								<label for="estado3">Estado</label>
+								<label for="estado3">State</label>
 							</div>
 							<div class="checkbox" style="width: 7.5em;">
 								<input id="codigopostal3" name="campos3[]" dojoType="dijit.form.CheckBox" value="codigopostal">
-								<label for="codigopostal3">C&oacute;digo postal</label>
+								<label for="codigopostal3">Postal Code</label>
 							</div>
 							<br>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="dentro3" name="campos3[]" dojoType="dijit.form.CheckBox" value="dentro">
-								<label for="dentro3">Dentro</label>
+								<label for="dentro3">Inside</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="telefone3" name="campos3[]" dojoType="dijit.form.CheckBox" value="telefone">
-								<label for="telefone3">Telefone</label>
+								<label for="telefone3">Phone</label>
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="sitedaweb3" name="campos3[]" dojoType="dijit.form.CheckBox" value="sitedaweb">
-								<label for="sitedaweb3">Site da web</label>
+								<label for="sitedaweb3">Website</label>
 							</div>
 							<div class="checkbox" style="width: 5.5em;">
 								<input id="twitter3" name="campos3[]" dojoType="dijit.form.CheckBox" value="twitter">
@@ -388,7 +388,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 							<br>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="descricao3" name="campos3[]" dojoType="dijit.form.CheckBox" value="descricao">
-								<label for="descricao3">Descri&ccedil;&atilde;o</label>
+								<label for="descricao3">Description</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="menu3" name="campos3[]" dojoType="dijit.form.CheckBox" value="menu">
@@ -396,7 +396,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="horas3" name="campos3[]" dojoType="dijit.form.CheckBox" value="horas" disabled>
-								<label for="horas3">Horas</label>
+								<label for="horas3">Hours</label>
 							</div>
 						</div>
 					</div>
@@ -407,7 +407,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 				</button>
 				-->
 				<button dojoType="dijit.form.Button" type="submit" class="continue">
-					Continuar
+					Continue
 				</button>
 			</div>
 		</div>
@@ -518,44 +518,44 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 						<div class="checkboxes">
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="nome4" name="campos4[]" dojoType="dijit.form.CheckBox" value="nome">
-								<label for="nome4">Nome</label>
+								<label for="nome4">Name</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="endereco4" name="campos4[]" dojoType="dijit.form.CheckBox" value="endereco">
-								<label for="endereco4">Endere&ccedil;o</label>
+								<label for="endereco4">Address</label>
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="ruatransversal4" name="campos4[]" dojoType="dijit.form.CheckBox" value="ruatransversal">
-								<label for="ruatransversal4">Rua transversal</label>
+								<label for="ruatransversal4">Cross street</label>
 							</div>
 							<div class="checkbox" style="width: 5.5em;">
 								<input id="bairro4" name="campos4[]" dojoType="dijit.form.CheckBox" value="bairro" disabled>
-								<label for="bairro4">Bairro</label>
+								<label for="bairro4">Neighborhood</label>
 							</div>
 							<div class="checkbox" style="width: 7em;">
 								<input id="cidade4" name="campos4[]" dojoType="dijit.form.CheckBox" value="cidade">
-								<label for="cidade4">Cidade</label>
+								<label for="cidade4">City</label>
 							</div>
 							<div class="checkbox" style="width: 7em;">
 								<input id="estado4" name="campos4[]" dojoType="dijit.form.CheckBox" value="estado">
-								<label for="estado4">Estado</label>
+								<label for="estado4">State</label>
 							</div>
 							<div class="checkbox" style="width: 7.5em;">
 								<input id="codigopostal4" name="campos4[]" dojoType="dijit.form.CheckBox" value="codigopostal">
-								<label for="codigopostal4">C&oacute;digo postal</label>
+								<label for="codigopostal4">Postal Code</label>
 							</div>
 							<br>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="dentro4" name="campos4[]" dojoType="dijit.form.CheckBox" value="dentro" disabled>
-								<label for="dentro4">Dentro</label>
+								<label for="dentro4">Inside</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="telefone4" name="campos4[]" dojoType="dijit.form.CheckBox" value="telefone">
-								<label for="telefone4">Telefone</label>
+								<label for="telefone4">Phone</label>
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="sitedaweb4" name="campos4[]" dojoType="dijit.form.CheckBox" value="sitedaweb">
-								<label for="sitedaweb4">Site da web</label>
+								<label for="sitedaweb4">Website</label>
 							</div>
 							<div class="checkbox" style="width: 5.5em;">
 								<input id="twitter4" name="campos4[]" dojoType="dijit.form.CheckBox" value="twitter">
@@ -576,7 +576,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 							<br>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="descricao4" name="campos4[]" dojoType="dijit.form.CheckBox" value="descricao" disabled>
-								<label for="descricao4">Descri&ccedil;&atilde;o</label>
+								<label for="descricao4">Description</label>
 							</div>
 							<div class="checkbox" style="width: 6.8em;">
 								<input id="menu4" name="campos4[]" dojoType="dijit.form.CheckBox" value="menu" disabled>
@@ -584,7 +584,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 							</div>
 							<div class="checkbox" style="width: 9.5em;">
 								<input id="horas4" name="campos4[]" dojoType="dijit.form.CheckBox" value="horas" disabled>
-								<label for="horas4">Horas</label>
+								<label for="horas4">Hours</label>
 							</div>
 						</div>
 					</div>
@@ -595,7 +595,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 					%2Fvenues%2Fsearch%3Fll%3D-16.11670379538501%252C-48.06514263153076 -->
 				<div>
 					<button dojoType="dijit.form.Button" type="submit" class="continue">
-						Continuar
+						Continue
 					</button>
 					<!--<button dojoType="dijit.form.Button" type=button onClick="console.log(f_src.getValues())">
 						Get Values from form!
