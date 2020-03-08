@@ -237,18 +237,18 @@ a:hover {
 	height: 1.3em;
 	border: 1px solid;
 	border-color: #a2a2a2 #b8b8b8 #b8b8b8 #a2a2a2;
-	background: #ffffff url("js/dijit/themes/tundra/images/progressBarEmpty.png") repeat-x center center;
+	background: #ffffff url("//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dijit/themes/tundra/images/progressBarEmpty.png") repeat-x center center;
 }
 .pb_before {
 	float: left;
 	height: 1.3em;
-	background: #abd6ff url("js/dijit/themes/tundra/images/progressBarFull.png") repeat-x center center;
+	background: #abd6ff url("//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dijit/themes/tundra/images/progressBarFull.png") repeat-x center center;
 	border-right: 1px solid #b8b8b8;
 }
 .pb_indeterminate {
 	float: left;
 	height: 1.3em;
-	background: #fff url("js/dijit/themes/tundra/images/progressBarAnim.gif") repeat-x center center;
+	background: #fff url("//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dijit/themes/tundra/images/progressBarAnim.gif") repeat-x center center;
 }
 .pb_text {
 	padding-top: 0.1em;

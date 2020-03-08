@@ -31,7 +31,7 @@ if (!isset($_SESSION["oauth_token"])) {
 <?php
 define("VERSION", "CSV Venues Editor 2.1.1");
 define("LINKS", '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="js/dijit/themes/tundra/tundra.css">
+<link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dijit/themes/tundra/tundra.css">
 <link rel="stylesheet" type="text/css" href="estilo.css">
 ');
 define("HBODY", '</head>
@@ -39,7 +39,7 @@ define("HBODY", '</head>
 ');
 define("CARREGANDO", LINKS . HBODY . '<div id="carregando">Carregando venues&hellip;</div>
 ');
-define("TEMPLATE1", '<script src="js/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
+define("TEMPLATE1", '<script src="//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
 <script>
 dojo.require("dijit.form.Button");
 document.getElementById("pb").style.display = "none";

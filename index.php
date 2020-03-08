@@ -39,9 +39,9 @@
 <head>
 <title>Elio Tools</title>
 <meta charset="utf-8">
-<script src="js/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
+<script src="//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="js/dijit/themes/tundra/tundra.css">
+<link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dijit/themes/tundra/tundra.css">
 <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body class="tundra">

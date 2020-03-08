@@ -31,7 +31,7 @@ if (!isset($_SESSION["oauth_token"])) {
 <?php
 define("VERSION", "Venues Searcher 2.1.1");
 define("LINKS", '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="js/dijit/themes/tundra/tundra.css">
+<link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dijit/themes/tundra/tundra.css">
 <link rel="stylesheet" type="text/css" href="estilo.css">
 ');
 define("HBODY", '</head>
@@ -39,7 +39,7 @@ define("HBODY", '</head>
 ');
 define("PESQUISANDO", LINKS . HBODY . '<div id="carregando">Pesquisando venues&hellip;</div>
 ');
-define("TEMPLATE1", '<script src="js/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
+define("TEMPLATE1", '<script src="//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
 <script>dojo.require("dijit.form.Button");</script>
 ');
 define("TEMPLATE2", '<p><button dojoType="dijit.form.Button" type="button" onclick="history.go(-1)" style="margin-left: 0px;">Voltar</button></p>

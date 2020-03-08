@@ -12,7 +12,7 @@ dojo.require("dojo.cookie");
 dojo.require("dojox.image");
 
 dojo.addOnLoad(function() {
-	dojox.image.preload(["js/dijit/themes/claro/images/progressBarFull.png", "js/dijit/themes/claro/images/progressBarAnim.gif"]);
+	dojox.image.preload(["//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dijit/themes/claro/images/progressBarFull.png", "//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dijit/themes/claro/images/progressBarAnim.gif"]);
 	dlg_csv = new dijit.Dialog({
 		title: "Arquivo CSV",
 		style: "width: 570px"
