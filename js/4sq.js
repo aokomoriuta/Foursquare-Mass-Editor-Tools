@@ -918,7 +918,7 @@ function salvarVenues() {
 			elementName = document.forms[i].elements[j].name;
 			if (document.forms[i].elements[j].type == "text") {
 				//console.log(elementName + ' adicionado');
-				if ((['name', 'address', 'crossStreet', 'neighborhood', 'city', 'state', 'zip', 'parentId', 'phone', 'url', 'twitter', 'instagram'].indexOf(elementName) > -1) && (dojo.query("input[name=" + elementName + "]")[i].disabled != true) && (document.forms[i][elementName].readOnly == false))
+				if ((['address', 'crossStreet', 'neighborhood', 'city', 'state', 'zip', 'parentId', 'phone', 'url', 'twitter', 'instagram'].indexOf(elementName) > -1) && (dojo.query("input[name=" + elementName + "]")[i].disabled != true) && (document.forms[i][elementName].readOnly == false))
 					dados += "&" + elementName + "=" + encodeURIComponent(document.forms[i].elements[j].value);
 				else if (elementName == "facebook") {
 					var facebookUsername = document.forms[i].elements[j].value;
