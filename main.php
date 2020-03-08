@@ -150,11 +150,11 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="endereco1" name="campos1[]" dojoType="dijit.form.CheckBox" value="endereco">
 								<label for="endereco1">Address</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="ruatransversal1" name="campos1[]" dojoType="dijit.form.CheckBox" value="ruatransversal">
 								<label for="ruatransversal1">Cross street</label>
 							</div>
-							<div class="checkbox" style="width: 5.5em;">
+							<div class="checkbox" style="width: 9em;">
 								<input id="bairro1" name="campos1[]" dojoType="dijit.form.CheckBox" value="bairro">
 								<label for="bairro1">Neighborhood</label>
 							</div>
@@ -179,11 +179,11 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="telefone1" name="campos1[]" dojoType="dijit.form.CheckBox" value="telefone">
 								<label for="telefone1">Phone</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="sitedaweb1" name="campos1[]" dojoType="dijit.form.CheckBox" value="sitedaweb">
 								<label for="sitedaweb1">Website</label>
 							</div>
-							<div class="checkbox" style="width: 5.5em;">
+							<div class="checkbox" style="width: 9em;">
 								<input id="twitter1" name="campos1[]" dojoType="dijit.form.CheckBox" value="twitter">
 								<label for="twitter1">Twitter</label>
 							</div>
@@ -208,7 +208,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="menu1" name="campos1[]" dojoType="dijit.form.CheckBox" value="menu">
 								<label for="menu1">Menu</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="horas1" name="campos1[]" dojoType="dijit.form.CheckBox" value="horas" disabled>
 								<label for="horas1">Hours</label>
 							</div>
@@ -243,11 +243,11 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="endereco2" name="campos2[]" dojoType="dijit.form.CheckBox" value="endereco">
 								<label for="endereco2">Address</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="ruatransversal2" name="campos2[]" dojoType="dijit.form.CheckBox" value="ruatransversal">
 								<label for="ruatransversal2">Cross street</label>
 							</div>
-							<div class="checkbox" style="width: 5.5em;">
+							<div class="checkbox" style="width: 9em;">
 								<input id="bairro2" name="campos2[]" dojoType="dijit.form.CheckBox" value="bairro">
 								<label for="bairro2">Neighborhood</label>
 							</div>
@@ -272,11 +272,11 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="telefone2" name="campos2[]" dojoType="dijit.form.CheckBox" value="telefone">
 								<label for="telefone2">Phone</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="sitedaweb2" name="campos2[]" dojoType="dijit.form.CheckBox" value="sitedaweb">
 								<label for="sitedaweb2">Website</label>
 							</div>
-							<div class="checkbox" style="width: 5.5em;">
+							<div class="checkbox" style="width: 9em;">
 								<input id="twitter2" name="campos2[]" dojoType="dijit.form.CheckBox" value="twitter">
 								<label for="twitter2">Twitter</label>
 							</div>
@@ -301,7 +301,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="menu2" name="campos2[]" dojoType="dijit.form.CheckBox" value="menu">
 								<label for="menu2">Menu</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="horas2" name="campos2[]" dojoType="dijit.form.CheckBox" value="horas" disabled>
 								<label for="horas2">Hours</label>
 							</div>
@@ -336,11 +336,11 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="endereco3" name="campos3[]" dojoType="dijit.form.CheckBox" value="endereco">
 								<label for="endereco3">Address</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="ruatransversal3" name="campos3[]" dojoType="dijit.form.CheckBox" value="ruatransversal">
 								<label for="ruatransversal3">Cross street</label>
 							</div>
-							<div class="checkbox" style="width: 5.5em;">
+							<div class="checkbox" style="width: 9em;">
 								<input id="bairro3" name="campos3[]" dojoType="dijit.form.CheckBox" value="bairro">
 								<label for="bairro3">Neighborhood</label>
 							</div>
@@ -365,11 +365,11 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="telefone3" name="campos3[]" dojoType="dijit.form.CheckBox" value="telefone">
 								<label for="telefone3">Phone</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="sitedaweb3" name="campos3[]" dojoType="dijit.form.CheckBox" value="sitedaweb">
 								<label for="sitedaweb3">Website</label>
 							</div>
-							<div class="checkbox" style="width: 5.5em;">
+							<div class="checkbox" style="width: 9em;">
 								<input id="twitter3" name="campos3[]" dojoType="dijit.form.CheckBox" value="twitter">
 								<label for="twitter3">Twitter</label>
 							</div>
@@ -394,7 +394,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="menu3" name="campos3[]" dojoType="dijit.form.CheckBox" value="menu">
 								<label for="menu3">Menu</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="horas3" name="campos3[]" dojoType="dijit.form.CheckBox" value="horas" disabled>
 								<label for="horas3">Hours</label>
 							</div>
@@ -524,11 +524,11 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="endereco4" name="campos4[]" dojoType="dijit.form.CheckBox" value="endereco">
 								<label for="endereco4">Address</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="ruatransversal4" name="campos4[]" dojoType="dijit.form.CheckBox" value="ruatransversal">
 								<label for="ruatransversal4">Cross street</label>
 							</div>
-							<div class="checkbox" style="width: 5.5em;">
+							<div class="checkbox" style="width: 9em;">
 								<input id="bairro4" name="campos4[]" dojoType="dijit.form.CheckBox" value="bairro" disabled>
 								<label for="bairro4">Neighborhood</label>
 							</div>
@@ -553,11 +553,11 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="telefone4" name="campos4[]" dojoType="dijit.form.CheckBox" value="telefone">
 								<label for="telefone4">Phone</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="sitedaweb4" name="campos4[]" dojoType="dijit.form.CheckBox" value="sitedaweb">
 								<label for="sitedaweb4">Website</label>
 							</div>
-							<div class="checkbox" style="width: 5.5em;">
+							<div class="checkbox" style="width: 9em;">
 								<input id="twitter4" name="campos4[]" dojoType="dijit.form.CheckBox" value="twitter">
 								<label for="twitter4">Twitter</label>
 							</div>
@@ -582,7 +582,7 @@ if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 								<input id="menu4" name="campos4[]" dojoType="dijit.form.CheckBox" value="menu" disabled>
 								<label for="menu4">Menu</label>
 							</div>
-							<div class="checkbox" style="width: 9.5em;">
+							<div class="checkbox" style="width: 8em;">
 								<input id="horas4" name="campos4[]" dojoType="dijit.form.CheckBox" value="horas" disabled>
 								<label for="horas4">Hours</label>
 							</div>
