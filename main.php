@@ -33,7 +33,7 @@ if (isset($_SESSION["oauth_token"])) {
 <script src="js/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
 <script src="js/main.js"></script>
 <?php
-$cache_file = "/tmp/cache-" . md5($_SERVER['REQUEST_URI']);
+$cache_file = "./tmp/cache-" . md5($_SERVER['REQUEST_URI']);
 if (file_exists($cache_file) && (filemtime($cache_file) > (time() - 3600 * 12))) {
 	// Cache file is less than 12 hours old. 
 	// Don't bother refreshing, just use the file as-is.
