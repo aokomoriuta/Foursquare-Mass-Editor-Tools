@@ -27,7 +27,10 @@ var CATEGORIAS_STATES_MUNICIPALITIES = [
 ];
 var CATEGORIA_CITY = "50aa9e094b90af0d42d5de0d";
 
-var oauth_token = dojo.cookie("oauth_token");
+var oauth_token;
+require(["dojo/cookie"], function(cookie){
+	oauth_token = cookie("oauth_token");
+});
 var txt = "";
 var json = "";
 
