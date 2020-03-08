@@ -94,15 +94,15 @@ function removeLocalCache($key) {
 </head>
 <body class="tundra">
 <header>
-	<h2>Edi&ccedil;&atilde;o de venues em massa via API <span>(v<?php echo $VERSAO; ?>)</span></h2>
+	<h2>Bulk editing of venues via API <span>(v<?php echo $VERSAO; ?>)</span></h2>
 </header>
 <article id="intro">
 <?php
 if ((isset($_COOKIE['name'])) && (strlen($_COOKIE['name']) > 0))
 	//echo "<p>Ol&aacute;, <span id=\"name\">" . $_COOKIE['name'] . "</span>!</p>";
-	echo "<p>Ol&aacute;, " . $_COOKIE['name'] . "!</p>";
+	echo "<p>Hello, " . $_COOKIE['name'] . "!</p>";
 ?>
-	<p>Este aplicativo usa a API do Foursquare&reg;, mas n&atilde;o &eacute; endossado ou certificado pelo Foursquare Labs, Inc. Todos os logos do Foursquare&reg; e marcas registradas exibidas neste aplicativo s&atilde;o de propriedade do Foursquare Labs, Inc.</p>
+	<p>This application uses the Foursquare® API, but is not endorsed or certified by Foursquare Labs, Inc. All Foursquare® logos and trademarks displayed in this application are the property of Foursquare Labs, Inc.</p>
 </article>
 <article id="options">
 	<div id="accordion" dojoType="dijit.layout.AccordionContainer" doLayout="false">
