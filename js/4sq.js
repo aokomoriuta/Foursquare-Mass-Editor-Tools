@@ -1329,7 +1329,7 @@ dojo.addOnLoad(function inicializar() {
 	select.addOption(options);
 	
 	var menuItem2 = new dijit.PopupMenuItem({
-		label: "Editar",
+		label: "To edit",
 		id: "menuEditar",
 		iconClass: "editIcon",
 		popup: subMenu2
@@ -1465,7 +1465,7 @@ dojo.addOnLoad(function inicializar() {
 	subMenu3.addChild(subMenu3Item11);
 	
 	var menuItem3 = new dijit.PopupMenuItem({
-		label: "Sinalizar",
+		label: "Flag",
 		id: "menuSinalizar",
 		iconClass: "flagIcon",
 		disabled: true,
@@ -1482,7 +1482,7 @@ dojo.addOnLoad(function inicializar() {
 	});
 	
 	var subMenu4Item1 = new dijit.MenuItem({
-		label: "Arquivo CSV",
+		label: "CSV file",
 		id: "menuItemExportarCSV",
 		onClick: function() {
 			var arq = [];
@@ -1499,7 +1499,7 @@ dojo.addOnLoad(function inicializar() {
 	subMenu4.addChild(subMenu4Item1);
 	
 	var subMenu4Item2 = new dijit.MenuItem({
-		label: "Arquivo TXT",
+		label: "TXT file",
 		id: "menuItemExportarTXT",
 		onClick: function() {
 			var arq = txt.slice(0);
@@ -1511,7 +1511,7 @@ dojo.addOnLoad(function inicializar() {
 	subMenu4.addChild(subMenu4Item2);
 	
 	var subMenu4Item3 = new dijit.MenuItem({
-		label: "URL direta",
+		label: "Direct URL",
 		id: "menuItemExportarURL",
 		onClick: function() {
 			var arq = txt.slice(0);
@@ -1597,7 +1597,7 @@ dojo.addOnLoad(function inicializar() {
 	
 	/*** Menu Mais ***/
 	var button = new dijit.form.DropDownButton({
-		label: "Mais",
+		label: "More",
 		name: "menuButton",
 		dropDown: menu,
 		id: "progButton"

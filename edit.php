@@ -43,10 +43,10 @@ include 'includes/app_credentials.php';
 </head>
 <body class="tundra">
 <header>
-	<h2>Editar venues</h2>
+	<h2>Edit venues</h2>
 </header>
 <article>
-	<p>Antes de salvar suas propostas de altera&ccedil;&otilde;es, n&atilde;o deixe de ler nosso <a id="guia" href="javascript:showDialogGuia()">guia de estilo</a> e as <a id="regras" href="https://pt.foursquare.com/info/houserules" target="_blank">regras da casa</a>.</p>
+	<p>Before saving your proposed changes, be sure to read our <!-- <a id="guia" href="javascript:showDialogGuia()">style guide</a> and --><a id="regras" href="https://ja.foursquare.com/info/houserules" target="_blank">house rules</a>.</p>
 </article>
 <article>
 	<div id="mapa"></div>
@@ -205,41 +205,41 @@ foreach ($file as $f) {
 		echo '<span id="icone', $i - 1, '"><img id=catImg', $i, ' src="https://foursquare.com/img/categories_v2/none_bg_32.png" style="height: 22px; width: 22px; margin-left: 0px"></span>', chr(10);
 
 		if ($editName) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="name" maxlength="256" value=" " placeHolder="Nome" style="width: ', 11 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Nome">', chr(10);
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="name" maxlength="256" value=" " placeHolder="Name" style="width: ', 11 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Nome">', chr(10);
 		} else {
 			echo '<input type="hidden" name="name">', chr(10);
 		}
 
 		if ($editAddress) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="address" maxlength="128" value=" " placeHolder="Endere&ccedil;o" style="width: ', 11 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Endere&ccedil;o">', chr(10);
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="address" maxlength="128" value=" " placeHolder="Address" style="width: ', 11 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Endere&ccedil;o">', chr(10);
 		}
 
 		if ($editCross) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="crossStreet" maxlength="128" value=" " placeHolder="Rua transversal" style="width: ', 9 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Rua transversal">', chr(10);
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="crossStreet" maxlength="128" value=" " placeHolder="Cross street" style="width: ', 9 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Rua transversal">', chr(10);
 		}
 	
 		if ($editNeighborhood) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="neighborhood" maxlength="128" value=" " placeHolder="Bairro" style="width: ', 9 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Bairro">', chr(10);
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="neighborhood" maxlength="128" value=" " placeHolder="Neighborhood" style="width: ', 9 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Bairro">', chr(10);
 		}
 
 		if ($editCity) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="city" maxlength="31" value=" " placeHolder="Cidade" style="width: ', 7 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Cidade">', chr(10);
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="city" maxlength="31" value=" " placeHolder="City" style="width: ', 7 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Cidade">', chr(10);
 		}
 
 		if ($editState) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="state" maxlength="30" value=" " placeHolder="UF" style="width: 2.5em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="UF">', chr(10);	 
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="state" maxlength="30" value=" " placeHolder="State" style="width: 2.5em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="UF">', chr(10);	 
 		}
 
 		if ($editZip) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="zip" maxlength="13" value=" " placeHolder="C&oacute;digo postal" style="width: 6em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="C&oacute;digo postal">', chr(10);
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="zip" maxlength="13" value=" " placeHolder="Postal Code" style="width: 6em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="C&oacute;digo postal">', chr(10);
 		}
 	
 		if ($editParentId) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="parentId" maxlength="24" value=" " placeHolder="Dentro" style="width: 14em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Dentro">', chr(10);
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="parentId" maxlength="24" value=" " placeHolder="Inside" style="width: 14em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Dentro">', chr(10);
 		}
 
 		if ($editPhone) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="phone" maxlength="21" value=" " placeHolder="Telefone" style="width: 7em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Telefone">', chr(10);
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="phone" maxlength="21" value=" " placeHolder="Phone" style="width: 7em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Telefone">', chr(10);
 		}
 
 		if ($editUrl) {
@@ -259,13 +259,13 @@ foreach ($file as $f) {
 		}
 
 		if ($editVenuell) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="venuell" maxlength="402" value=" " placeHolder="Lat/Long" style="width: ', 7 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Lat/Long">', chr(10);
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="venuell" maxlength="402" value=" " placeHolder="Lat/Lng" style="width: ', 7 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Lat/Long">', chr(10);
 		} else {
 			echo '<input type="hidden" name="venuell">', chr(10);
 		}
 		
 		if ($editDesc) {
-			echo '<input type="text" dojoType="dijit.form.TextBox" name="description" maxlength="300" value=" " placeHolder="Descri&ccedil;&atilde;o" style="width: ', 8 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Descri&ccedil;&atilde;o">', chr(10);
+			echo '<input type="text" dojoType="dijit.form.TextBox" name="description" maxlength="300" value=" " placeHolder="Description" style="width: ', 8 + $ajusteInput, 'em; margin-left: 5px;" onchange="verificarAlteracao(this, ', $i - 1, ')" data-name-ptbr="Descri&ccedil;&atilde;o">', chr(10);
 		}
 		
 		if ($editMenu) {
@@ -286,8 +286,8 @@ foreach ($file as $f) {
 <!-- Botoes Salvar, Voltar e Mais -->
 <article>
 	<div id="fixedtray">
-		<button id="saveButton" dojoType="dijit.form.Button" type="submit" name="saveButton" onclick="javascript:showDialogComment(this.name)" style="float: left; padding-right: 3px;" disabled>Salvar</button>
-		<button id="backButton" dojoType="dijit.form.Button" type="button" onclick="location.href='main.php'" name="backButton" style="float: left; padding-right: 3px;">Voltar</button>
+		<button id="saveButton" dojoType="dijit.form.Button" type="submit" name="saveButton" onclick="javascript:showDialogComment(this.name)" style="float: left; padding-right: 3px;" disabled>Save</button>
+		<button id="backButton" dojoType="dijit.form.Button" type="button" onclick="location.href='main.php'" name="backButton" style="float: left; padding-right: 3px;">Back</button>
 		<div id="dropdownButtonContainer" style="float: left"></div>
 	</div>
 </article>
